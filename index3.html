@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form>
+        <div style="display: flex; flex-direction: row;">
+            <div style="flex: 1; padding-right: 10px;">
+                <label for="fullname">Full Name:</label><br>
+                <label for="username">Username:</label><br>
+                <label for="password">Password:</label><br>
+                <label for="repassword">Re-enter Password:</label><br>
+                <label for="address">Address:</label><br>
+                <label for="age">Age:</label><br>
+                <label for="gender">Gender:</label><br>
+            </div>
+            <div style="flex: 2;">
+                <input type="text" id="fullname" name="fullname"><br>
+                <input type="text" id="username" name="username"><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="password" id="repassword" name="repassword"><br>
+                <input type="text" id="address" name="address"><br>
+                <input type="number" id="age" name="age"><br>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
